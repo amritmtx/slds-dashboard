@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="styles/salesforce-lightning-design-system.css"
+    />
+    <link rel="stylesheet" href="styles/override.css" />
+    <title>MTX Group Inc.</title>
+  </head>
+  <body>
+    <!-- Header Starts Here -->
+    <div class="slds-builder-header_container header-container--modifier">
+      <header class="slds-builder-header header--height header--bg-color">
+        <div class="slds-builder-header__item header--margin-left">
+          <div
+            class="slds-builder-header__item-label slds-media slds-media_center"
+          >
+            <div class="slds-media__figure">
+              <img
+                src="/images/lorem-logo.jpg"
+                class="slds-avatar_circle"
+                width="90px"
+                height="90px"
+                alt="Company Name"
+              />
+            </div>
+            <div class="slds-media__body header--title">
+              <h2 class="header--company-name">Lorem Company Pvt. Ltd.</h2>
+              <p class="header--company-tagline">Sample Company Tagline</p>
+            </div>
+          </div>
+        </div>
+        <nav
+          class="slds-builder-header__item slds-builder-header__utilities nav--border-none header--margin-right"
+        >
+          <ul class="slds-builder-header__nav-list">
+            <li class="slds-builder-header__nav-item">
+              <a
+                class="slds-builder-header__item-action slds-media slds-media_center"
+              >
+                <span class="slds-media__body">
+                  <span class="slds-truncate" title="Link">Dashboard</span>
+                </span>
+              </a>
+            </li>
+          </ul>
+          <ul class="slds-builder-header__nav-list">
+            <li class="slds-builder-header__nav-item">
+              <a
+                class="slds-builder-header__item-action slds-media slds-media_center"
+              >
+                <span class="slds-media__body">
+                  <span class="slds-truncate" title="Link">Profile</span>
+                </span>
+              </a>
+            </li>
+          </ul>
+          <ul class="slds-builder-header__nav-list">
+            <li class="slds-builder-header__nav-item">
+              <a
+                class="slds-builder-header__item-action slds-media slds-media_center"
+              >
+                <span>
+                  <span class="slds-media__body">
+                    <span class="slds-truncate" title="Link"
+                      >Amrit Srivastava</span
+                    >
+                  </span>
+                  <span
+                    class="slds-icon_container slds-icon-utility-chevrondown slds-current-color slds-m-left_small"
+                  >
+                    <svg class="slds-icon slds-icon_x-small" aria-hidden="true">
+                      <use
+                        xlink:href="icons/utility-sprite/svg/symbols.svg#chevrondown"
+                      ></use>
+                    </svg>
+                  </span>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <!-- Header Ends Here -->
+    <!-- Alert Bar Starts Here -->
+    <div
+      class="slds-notify slds-grid slds-grid_align-spread slds-notify_alert theme-alert--modifier"
+      role="alert"
+    >
+      <div class="slds-col">
+        <h2>
+          <span class="slds-assistive-text">warning</span>
+          <span
+            class="slds-icon_container slds-icon-utility-warning slds-m-right--small"
+            title="Description of icon when needed"
+          >
+            <svg
+              class="slds-icon slds-icon-small warning-icon--color"
+              aria-hidden="true"
+            >
+              <use
+                xlink:href="icons/utility-sprite/svg/symbols.svg#warning"
+              ></use>
+            </svg>
+          </span>
+          Lorem Company Pvt. Ltd. and MTX Group Inc. have one or more licenses
+          available for renewal.
+        </h2>
+      </div>
+      <div class="slds-col slds-size--2-of-12">
+        <button
+          class="slds-button slds-button_outline-brand alert-button--modifier"
+        >
+          View Now
+        </button>
+      </div>
+    </div>
+    <!-- Alert Bar Ends Here -->
+    <!-- Main Heading Starts Here -->
+    <main class="margin-left--100-px">
+      <h1
+        class="slds-text-heading_large slds-m-top--x-large welcome-heading--modifier"
+      >
+        Welcome to the Lorem Alcoholic Beverage license portal
+      </h1>
+      <h3
+        class="slds-text-heading_small slds-m-top--x-small welcome-sub-heading--modifier"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </h3>
+      <button
+        class="slds-button slds-button_brand new-request-button--modifier slds-m-top--large"
+      >
+        New Request/Application
+      </button>
+    </main>
+    <!-- Main Heading Ends Here -->
+    <!-- Section 1 Starts Here -->
+    <section
+      class="margin-left--100-px margin-right--100-px slds-m-top--x-large"
+    >
+      <div class="slds-tabs_default background-color--default">
+        <ul class="slds-tabs_default__nav" role="tablist">
+          <li
+            class="slds-tabs_default__item slds-is-active tab-heading-underline--modifier"
+            title="Item One"
+            role="presentation"
+          >
+            <a
+              class="slds-tabs_default__link tab-heading-active--modifier"
+              role="tab"
+              tabindex="0"
+              aria-selected="true"
+              aria-controls="tab-default-1"
+              id="tab-default-1__item"
+              >Application status</a
+            >
+          </li>
+          <li
+            class="slds-tabs_default__item tab-heading-underline--modifier"
+            title="Item Two"
+            role="presentation"
+          >
+            <a
+              class="slds-tabs_default__link tab-heading-inactive--modifier"
+              role="tab"
+              tabindex="-1"
+              aria-selected="false"
+              aria-controls="tab-default-2"
+              id="tab-default-2__item"
+              >My license(s)</a
+            >
+          </li>
+        </ul>
+        <div
+          id="tab-default-1"
+          class="slds-tabs_default__content slds-show"
+          role="tabpanel"
+          aria-labelledby="tab-default-1__item"
+        >
+          <h2 class="slds-text-heading_medium tab-content-heading--modifier">
+            Lorem Alcoholic Beverage Control
+          </h2>
+
+          <article
+            class="slds-card card--modifier card--red slds-grid slds-grid--vertical-align-center slds-m-top--large"
+          >
+            <header
+              class="slds-media slds-media_center slds-has-flexi-truncate"
+            >
+              <div class="slds-media__body slds-m-around--small">
+                <h2 class="slds-card__header-title card-heading--modifier">
+                  KY ABC / Frankfort - 12345
+                </h2>
+                <h2
+                  class="slds-card__header-title card-sub-heading--modifier slds-m-top--x-small"
+                >
+                  1003 Twilight Trail, Frankfort, KY - 40601, Franklin County
+                </h2>
+              </div>
+              <div class="slds-no-flex slds-m-around--small">
+                <span
+                  class="slds-m-right--large card-warning card-warning--red"
+                >
+                  <span class="slds-assistive-text">warning</span>
+                  <span
+                    class="slds-icon_container slds-icon-utility-warning slds-m-right--xx-small"
+                    title="Description of icon when needed"
+                  >
+                    <svg
+                      class="slds-icon slds-icon--small card-warning-icon--red"
+                      aria-hidden="true"
+                    >
+                      <use
+                        xlink:href="icons/utility-sprite/svg/symbols.svg#warning"
+                      ></use>
+                    </svg>
+                  </span>
+                  Incomplete application
+                </span>
+                <button
+                  class="slds-button slds-button--brand button-primary--modifier"
+                >
+                  Update
+                </button>
+              </div>
+            </header>
+          </article>
+
+          <article
+            class="slds-card card--modifier card--yellow slds-grid slds-grid--vertical-align-center slds-m-top--large"
+          >
+            <header
+              class="slds-media slds-media_center slds-has-flexi-truncate"
+            >
+              <div class="slds-media__body slds-m-around--small">
+                <h2 class="slds-card__header-title card-heading--modifier">
+                  KY ABC / Frankfort - 12345
+                </h2>
+                <h2
+                  class="slds-card__header-title card-sub-heading--modifier slds-m-top--x-small"
+                >
+                  1003 Twilight Trail, Frankfort, KY - 40601, Franklin County
+                </h2>
+              </div>
+              <div
+                class="slds-no-flex slds-m-around--small slds-text-align--right"
+              >
+                <h5 class="card-sub-warning">Temporary License Application</h5>
+                <h3 class="card-warning card-warning--yellow">
+                  Incomplete/Draft
+                </h3>
+              </div>
+              <div class="slds-no-flex slds-m-around--small">
+                <button
+                  class="slds-button slds-button_outline-brand button-secondary--modifier"
+                >
+                  Continue
+                </button>
+              </div>
+            </header>
+          </article>
+
+          <article
+            class="slds-card card--modifier card--yellow slds-grid slds-grid--vertical-align-center slds-m-top--large"
+          >
+            <header
+              class="slds-media slds-media_center slds-has-flexi-truncate"
+            >
+              <div class="slds-media__body slds-m-around--small">
+                <h2 class="slds-card__header-title card-heading--modifier">
+                  KY ABC / Frankfort - 12345
+                </h2>
+                <h2
+                  class="slds-card__header-title card-sub-heading--modifier slds-m-top--x-small"
+                >
+                  1003 Twilight Trail, Frankfort, KY - 40601, Franklin County
+                </h2>
+              </div>
+              <div
+                class="slds-no-flex slds-m-around--small slds-text-align--right"
+              >
+                <h5 class="card-sub-warning">Temporary License Application</h5>
+                <h3 class="card-warning card-warning--yellow">
+                  Incomplete/Draft
+                </h3>
+              </div>
+              <div class="slds-no-flex slds-m-around--small">
+                <button
+                  class="slds-button slds-button_outline-brand button-secondary--modifier"
+                >
+                  Continue
+                </button>
+              </div>
+            </header>
+          </article>
+
+          <article class="slds-card card--modifier slds-m-top--large">
+            <header
+              class="slds-media slds-media_center slds-has-flexi-truncate"
+            >
+              <div class="slds-media__body slds-m-around--small">
+                <h2 class="slds-card__header-title card-heading--modifier">
+                  KY ABC - Louisville - 54321
+                </h2>
+                <h2
+                  class="slds-card__header-title card-sub-heading--modifier slds-m-top--x-small"
+                >
+                  12700 Townepark Way Ste 205, Louisville, KY - 40243, Jefferson
+                  County
+                </h2>
+              </div>
+              <div
+                class="slds-no-flex slds-m-around--small slds-text-align--right"
+              >
+                <h3 class="card-warning-primary">Site Number : 123455432</h3>
+              </div>
+              <div class="slds-no-flex slds-m-around--small">
+                <button
+                  class="slds-button slds-button_outline-brand button-secondary--modifier"
+                >
+                  Withdraw
+                </button>
+              </div>
+            </header>
+            <div
+              class="slds-card__body slds-card__body_inner slds-p-bottom--small"
+            >
+              <table class="slds-table table--modifier">
+                <thead>
+                  <tr class="table-heading-row">
+                    <th class="" scope="col" style="width: 70%">
+                      LICENSING TYPE
+                    </th>
+                    <th class="" scope="col">SUBMITTED ON</th>
+                    <th class="" scope="col">PROGRESS</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="table-row">
+                    <td data-label="Opportunity Name">
+                      NQ1 Retail Drink License (KRS 243.082)
+                    </td>
+                    <td data-label="Account Name">01/22/2019</td>
+                    <td data-label="Close Date" class="table-data-progress">
+                      Administrative review
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </article>
+
+          <h2
+            class="slds-text-heading_medium tab-content-heading--modifier slds-m-vertical--x-large"
+          >
+            MTX Group Inc.
+          </h2>
+
+          <article class="slds-card card--modifier slds-m-top--large">
+            <header
+              class="slds-media slds-media_center slds-has-flexi-truncate"
+            >
+              <div class="slds-media__body slds-m-around--small">
+                <h2 class="slds-card__header-title card-heading--modifier">
+                  MTX Group Inc / Albany - 765432
+                </h2>
+                <h2
+                  class="slds-card__header-title card-sub-heading--modifier slds-m-top--x-small"
+                >
+                  1450 Western Avenue - Suite 304, Albany, NY - 12203, Albany
+                  County
+                </h2>
+              </div>
+              <div
+                class="slds-no-flex slds-m-around--small slds-text-align--right"
+              >
+                <h3 class="card-warning-primary">Site Number : 876543990</h3>
+              </div>
+              <div class="slds-no-flex slds-m-around--small">
+                <button
+                  class="slds-button slds-button_outline-brand button-secondary--modifier"
+                >
+                  Withdraw
+                </button>
+              </div>
+            </header>
+            <div
+              class="slds-card__body slds-card__body_inner slds-p-bottom--small"
+            >
+              <table class="slds-table table--modifier">
+                <thead>
+                  <tr class="table-heading-row">
+                    <th class="" scope="col" style="width: 70%">
+                      LICENSING TYPE
+                    </th>
+                    <th class="" scope="col">SUBMITTED ON</th>
+                    <th class="" scope="col">PROGRESS</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="table-row">
+                    <td data-label="Opportunity Name">
+                      NQ1 Retail Drink License (KRS 243.082)
+                    </td>
+                    <td data-label="Account Name">01/22/2019</td>
+                    <td data-label="Close Date" class="table-data-progress">
+                      Administrative review
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </article>
+        </div>
+        <div
+          id="tab-default-2"
+          class="slds-tabs_default__content slds-hide"
+          role="tabpanel"
+          aria-labelledby="tab-default-2__item"
+        >
+          Item Two Content
+        </div>
+      </div>
+    </section>
+    <!-- Section 1 Ends Here -->
+    <!-- Footer Starts Here -->
+    <footer
+      class="slds-grid slds-grid_align-spread slds-grid--vertical-align-center footer--modifier slds-p-vertical--small padding-left--100-px padding-right--100-px"
+    >
+      <div class="slds-col">
+        <h4>© 2019 Lorem Alcoholic Beverage Control</h4>
+      </div>
+      <div class="slds-col">
+        <a href="#" class="slds-button color--white slds-m-horizontal--large"
+          >Help</a
+        >
+        <a href="#" class="slds-button color--white slds-m-horizontal--large"
+          >FAQs</a
+        >
+        <a href="#" class="slds-button color--white slds-m-horizontal--large"
+          >Submit a case</a
+        >
+        <a href="#" class="slds-button color--white slds-m-horizontal--large"
+          >Terms of Use Agreement</a
+        >
+        <a href="#" class="slds-button color--white slds-m-horizontal--large"
+          >Privacy Policy</a
+        >
+      </div>
+    </footer>
+    <!-- Footer Ends Here -->
+  </body>
+</html>

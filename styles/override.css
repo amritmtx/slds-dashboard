@@ -1,0 +1,267 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+/* Base Overrides */
+html {
+  background-color: #f7f7f7;
+  font-family: 'Heebo', sans-serif;
+}
+
+/* Genral Utilities */
+.margin-right--100-px {
+  margin-right: 100px;
+}
+
+.margin-left--100-px {
+  margin-left: 100px;
+}
+
+.padding-right--100-px {
+  padding-right: 100px;
+}
+
+.padding-left--100-px {
+  padding-left: 100px;
+}
+
+.background-color--default {
+  background-color: #f7f7f7;
+}
+
+.color--white {
+  color: white;
+}
+
+/* Header Overrides */
+.header-container--modifier {
+  position: static;
+}
+
+.header--height {
+  height: 120px;
+}
+
+.header--bg-color {
+  background-color: rgb(48, 51, 61);
+}
+
+.header--title .header--company-name {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.header--title .header--company-tagline {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: normal;
+}
+
+.header--margin-left {
+  margin-left: calc(100px - 1rem);
+}
+
+.header--margin-right {
+  margin-right: calc(100px - 1rem);
+}
+
+.nav--border-none {
+  border: none !important;
+}
+
+/* Alert Overrides */
+
+.theme-alert--modifier {
+  height: 82px;
+  background-color: rgb(247, 152, 28);
+  color: rgb(53, 64, 82);
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 22px;
+  padding-right: 100px !important;
+  padding-left: 100px !important;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 500;
+}
+
+.warning-icon--color {
+  fill: rgb(53, 64, 82);
+}
+
+.alert-button--modifier {
+  border-radius: 0px;
+  border: 1px solid rgb(13, 60, 200);
+  width: 100%;
+}
+
+/* Welcome Heading Overrides */
+.welcome-heading--modifier {
+  color: rgb(53, 64, 82);
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.welcome-sub-heading--modifier {
+  color: rgb(127, 143, 164);
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 22px;
+}
+
+.new-request-button--modifier {
+  background: linear-gradient(
+    -180deg,
+    rgb(13, 60, 200) 0%,
+    rgb(4, 41, 181) 100%
+  );
+  border-radius: 0px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+/* Tab Overrides */
+
+.tab-heading-active--modifier {
+  color: rgb(69, 79, 87);
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.tab-heading-underline--modifier::after {
+  background-color: rgb(13, 60, 200) !important;
+}
+
+.tab-heading-inactive--modifier {
+  color: rgb(127, 143, 164);
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.tab-content-heading--modifier {
+  color: rgb(13, 60, 200);
+  font-size: 24px;
+  font-weight: normal;
+}
+
+/* Card Overrides */
+.card--modifier {
+  box-shadow: 2px 2px 20px 5px rgba(13, 60, 200, 0.05) !important;
+  min-height: 90px;
+}
+
+.card-heading--modifier {
+  color: rgb(13, 60, 200);
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.card-sub-heading--modifier {
+  color: rgb(53, 64, 82);
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.button-primary--modifier {
+  background: rgb(71, 158, 235);
+  border-radius: 0px;
+  width: 200px;
+}
+
+.button-secondary--modifier {
+  color: rgb(13, 60, 200);
+  border-radius: 0px;
+  width: 200px;
+}
+
+.card-warning {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 22px;
+}
+
+.card-sub-warning {
+  color: rgb(127, 143, 164);
+  font-size: 12px;
+  font-weight: normal;
+  letter-spacing: 0.55px;
+}
+
+.card-warning-primary {
+  color: rgb(53, 64, 82);
+  font-size: 16px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.card--red {
+  border-left: 12px solid rgb(248, 83, 89) !important;
+}
+
+.card-warning--red {
+  color: rgb(248, 83, 89);
+}
+
+.card-warning-icon--red {
+  fill: rgb(248, 83, 89);
+}
+
+.card--yellow {
+  border-left: 12px solid rgb(247, 152, 28) !important;
+}
+
+.card-warning--yellow {
+  color: rgb(247, 152, 28);
+}
+
+.card-warning-icon--yellow {
+  fill: rgb(247, 152, 28);
+}
+
+/* Table Overrides */
+
+.table--modifier {
+  background: rgb(255, 255, 255);
+  border-radius: 0px;
+  border: 1px solid rgb(211, 219, 245);
+}
+
+.table--modifier tr {
+  height: 50px;
+}
+
+.table-heading-row {
+  background-color: rgba(13, 60, 200, 0.05);
+  text-transform: uppercase;
+}
+
+.table-heading-row th {
+  color: rgb(53, 64, 82) !important;
+  font-size: 12px;
+  font-weight: 500 !important;
+  letter-spacing: 0.55px;
+}
+
+.table-row td {
+  color: rgb(53, 64, 82);
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.table-data-progress {
+  color: rgb(127, 143, 164) !important;
+  font-size: 12px !important;
+}
+
+/* Footer Overrides */
+
+.footer--modifier {
+  color: white;
+  background-color: rgb(48, 51, 61);
+  font-size: 12px;
+  font-weight: normal;
+  letter-spacing: 0.55px;
+  height: 40px;
+}
