@@ -12,12 +12,14 @@
   </head>
   <body>
     <!-- Header Starts Here -->
-    <div class="slds-builder-header_container header-container--modifier">
-      <header class="slds-builder-header header--height header--bg-color">
-        <div class="slds-builder-header__item header--margin-left">
-          <div
-            class="slds-builder-header__item-label slds-media slds-media_center"
-          >
+    <div
+      class="slds-builder-header_container slds-grid slds-grid--align-center header-container--modifier primary--bg-color"
+    >
+      <header
+        class="slds-builder-header header--height primary--bg-color container--width"
+      >
+        <div class="slds-grid slds-grid--vertical-align-center">
+          <div class="slds-media slds-media_center">
             <div class="slds-media__figure">
               <img
                 src="images/lorem-logo.jpg"
@@ -27,17 +29,17 @@
                 alt="Company Name"
               />
             </div>
-            <div class="slds-media__body header--title">
-              <h2 class="header--company-name">Lorem Company Pvt. Ltd.</h2>
-              <p class="header--company-tagline">Sample Company Tagline</p>
+            <div class="slds-media__body">
+              <h2>Lorem Company Pvt. Ltd.</h2>
+              <p>Sample Company Tagline</p>
             </div>
           </div>
         </div>
         <nav
-          class="slds-builder-header__item slds-builder-header__utilities nav--border-none header--margin-right"
+          class="slds-builder-header__item slds-grid--vertical-align-center slds-builder-header__utilities nav--border-none"
         >
-          <ul class="slds-builder-header__nav-list">
-            <li class="slds-builder-header__nav-item">
+          <ul>
+            <li>
               <a
                 class="slds-builder-header__item-action slds-media slds-media_center"
               >
@@ -47,8 +49,8 @@
               </a>
             </li>
           </ul>
-          <ul class="slds-builder-header__nav-list">
-            <li class="slds-builder-header__nav-item">
+          <ul>
+            <li>
               <a
                 class="slds-builder-header__item-action slds-media slds-media_center"
               >
@@ -58,8 +60,8 @@
               </a>
             </li>
           </ul>
-          <ul class="slds-builder-header__nav-list">
-            <li class="slds-builder-header__nav-item">
+          <ul>
+            <li>
               <a
                 class="slds-builder-header__item-action slds-media slds-media_center"
               >
@@ -88,90 +90,92 @@
     <!-- Header Ends Here -->
     <!-- Alert Bar Starts Here -->
     <div
-      class="slds-notify slds-grid slds-grid_align-spread slds-notify_alert theme-alert--modifier"
-      role="alert"
+      class="slds-grid slds-grid--align-center secondary--bg-color position--sticky"
     >
-      <div class="slds-col">
-        <h2>
-          <span class="slds-assistive-text">warning</span>
-          <span
-            class="slds-icon_container slds-icon-utility-warning slds-m-right--xx-small"
-            title="Description of icon when needed"
-          >
-            <svg
-              class="slds-icon slds-icon--small warning-icon--color"
-              aria-hidden="true"
+      <div
+        class="slds-notify slds-grid container--width slds-grid_align-spread slds-grid--vertical-align-center secondary--bg-color primary--color slds-p-vertical--large"
+        role="alert"
+      >
+        <div class="slds-col">
+          <h5>
+            <span class="slds-assistive-text">warning</span>
+            <span
+              class="slds-icon_container slds-icon-utility-warning slds-m-right--xx-small"
+              title="Description of icon when needed"
             >
-              <use xlink:href="icons/warning-icon.svg#warning"></use>
-            </svg>
-          </span>
-          Lorem Company Pvt. Ltd. and MTX Group Inc. have one or more licenses
-          available for renewal.
-        </h2>
-      </div>
-      <div class="slds-col slds-size--2-of-12">
-        <button
-          class="slds-button slds-button_outline-brand alert-button--modifier"
-        >
-          View Now
-        </button>
+              <svg
+                class="slds-icon slds-icon--small warning-icon--gray"
+                aria-hidden="true"
+              >
+                <use xlink:href="icons/warning-icon.svg#warning"></use>
+              </svg>
+            </span>
+            Lorem Company Pvt. Ltd. and MTX Group Inc. have one or more licenses
+            available for renewal.
+          </h5>
+        </div>
+        <div class="slds-col">
+          <button
+            class="slds-button slds-button_outline-brand slds-p-horizontal--xx-large button--outlined"
+          >
+            View Now
+          </button>
+        </div>
       </div>
     </div>
     <!-- Alert Bar Ends Here -->
     <!-- Main Heading Starts Here -->
-    <main class="margin-left--100-px">
-      <h1
-        class="slds-text-heading_large slds-m-top--x-large welcome-heading--modifier"
-      >
-        Welcome to the Lorem Alcoholic Beverage license portal
-      </h1>
-      <h3
-        class="slds-text-heading_small slds-m-top--x-small welcome-sub-heading--modifier"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      </h3>
-      <button
-        class="slds-button slds-button_brand new-request-button--modifier slds-m-top--large"
-      >
-        New Request/Application
-      </button>
+    <main class="slds-grid slds-grid--align-center">
+      <div class="container--width">
+        <h1 class="slds-m-top--x-large primary--color">
+          Welcome to the Lorem Alcoholic Beverage license portal
+        </h1>
+        <p class="slds-m-top--x-small secondary--color">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+        <button
+          class="slds-button slds-button_brand button--contained tertiary--bg-color slds-m-top--large slds-p-horizontal--xx-large"
+        >
+          New Request/Application
+        </button>
+      </div>
     </main>
     <!-- Main Heading Ends Here -->
     <!-- Section 1 Starts Here -->
-    <section
-      class="margin-left--100-px margin-right--100-px slds-m-top--x-large"
-    >
-      <div class="slds-tabs_default background-color--default">
+    <section class="slds-grid slds-grid--align-center slds-m-top--x-large">
+      <div class="slds-tabs_default base--bg-color container--width">
         <ul class="slds-tabs_default__nav" role="tablist">
           <li
             class="slds-tabs_default__item slds-is-active tab-heading-underline--modifier"
             title="Item One"
             role="presentation"
           >
-            <a
-              class="slds-tabs_default__link tab-heading-active--modifier"
+            <h5
+              class="slds-tabs_default__link primary--color"
               role="tab"
               tabindex="0"
               aria-selected="true"
               aria-controls="tab-default-1"
               id="tab-default-1__item"
-              >Application status</a
             >
+              Application status
+            </h5>
           </li>
           <li
             class="slds-tabs_default__item tab-heading-underline--modifier"
             title="Item Two"
             role="presentation"
           >
-            <a
-              class="slds-tabs_default__link tab-heading-inactive--modifier"
+            <h5
+              class="slds-tabs_default__link secondary--color"
               role="tab"
               tabindex="-1"
               aria-selected="false"
               aria-controls="tab-default-2"
               id="tab-default-2__item"
-              >My license(s)</a
             >
+              My license(s)
+            </h5>
           </li>
         </ul>
         <div
@@ -180,37 +184,29 @@
           role="tabpanel"
           aria-labelledby="tab-default-1__item"
         >
-          <h2 class="slds-text-heading_medium tab-content-heading--modifier">
-            Lorem Alcoholic Beverage Control
-          </h2>
+          <h2 class="tertiary--color">Lorem Alcoholic Beverage Control</h2>
 
           <article
-            class="slds-card card--modifier card--red slds-grid slds-grid--vertical-align-center slds-m-top--large"
+            class="slds-card card--modifier border-left-larger--red slds-grid slds-grid--vertical-align-center slds-m-top--large"
           >
             <header
               class="slds-media slds-media_center slds-has-flexi-truncate"
             >
               <div class="slds-media__body slds-m-around--small">
-                <h2 class="slds-card__header-title card-heading--modifier">
-                  KY ABC / Frankfort - 12345
-                </h2>
-                <h2
-                  class="slds-card__header-title card-sub-heading--modifier slds-m-top--x-small"
-                >
+                <h5 class="tertiary--color">KY ABC / Frankfort - 12345</h5>
+                <h5 class="primary--color slds-m-top--x-small">
                   1003 Twilight Trail, Frankfort, KY - 40601, Franklin County
-                </h2>
+                </h5>
               </div>
-              <div class="slds-no-flex slds-m-around--small">
-                <span
-                  class="slds-m-right--large card-warning card-warning--red"
-                >
+              <div class="slds-m-around--small">
+                <span class="card-warning red--color">
                   <span class="slds-assistive-text">warning</span>
                   <span
-                    class="slds-icon_container slds-icon-utility-warning slds-m-right--xx-small"
+                    class="slds-icon_container slds-icon-utility-warning"
                     title="Description of icon when needed"
                   >
                     <svg
-                      class="slds-icon slds-icon--small card-warning-icon--red"
+                      class="slds-icon slds-icon--small warning-icon--red"
                       aria-hidden="true"
                     >
                       <use xlink:href="icons/warning-icon.svg#warning"></use>
@@ -219,7 +215,7 @@
                   Incomplete application
                 </span>
                 <button
-                  class="slds-button slds-button--brand button-primary--modifier"
+                  class="slds-button button-secondary--modifier slds-button--brand button--contained slds-m-horizontal--small slds-p-horizontal--xx-large light-blue--bg-color"
                 >
                   Update
                 </button>
@@ -228,32 +224,24 @@
           </article>
 
           <article
-            class="slds-card card--modifier card--yellow slds-grid slds-grid--vertical-align-center slds-m-top--large"
+            class="slds-card card--modifier border-left-larger--yellow slds-grid slds-grid--vertical-align-center slds-m-top--large"
           >
             <header
               class="slds-media slds-media_center slds-has-flexi-truncate"
             >
               <div class="slds-media__body slds-m-around--small">
-                <h2 class="slds-card__header-title card-heading--modifier">
-                  KY ABC / Frankfort - 12345
-                </h2>
-                <h2
-                  class="slds-card__header-title card-sub-heading--modifier slds-m-top--x-small"
-                >
+                <h5 class="tertiary--color">KY ABC / Frankfort - 12345</h5>
+                <h5 class="primary--color slds-m-top--x-small">
                   1003 Twilight Trail, Frankfort, KY - 40601, Franklin County
-                </h2>
+                </h5>
               </div>
-              <div
-                class="slds-no-flex slds-m-around--small slds-text-align--right"
-              >
-                <h5 class="card-sub-warning">Temporary License Application</h5>
-                <h3 class="card-warning card-warning--yellow">
-                  Incomplete/Draft
-                </h3>
+              <div class="slds-no-flex slds-text-align--right">
+                <h6 class="secondary--color">Temporary License Application</h6>
+                <h5 class="yellow--color">Incomplete/Draft</h5>
               </div>
-              <div class="slds-no-flex slds-m-around--small">
+              <div class="slds-no-flex">
                 <button
-                  class="slds-button slds-button_outline-brand button-secondary--modifier"
+                  class="slds-button button-secondary--modifier slds-button_outline-brand button--outlined slds-m-horizontal--large slds-m-horizontal--small slds-p-horizontal--xx-large"
                 >
                   Continue
                 </button>
@@ -262,32 +250,24 @@
           </article>
 
           <article
-            class="slds-card card--modifier card--yellow slds-grid slds-grid--vertical-align-center slds-m-top--large"
+            class="slds-card card--modifier border-left-larger--yellow slds-grid slds-grid--vertical-align-center slds-m-top--large"
           >
             <header
               class="slds-media slds-media_center slds-has-flexi-truncate"
             >
               <div class="slds-media__body slds-m-around--small">
-                <h2 class="slds-card__header-title card-heading--modifier">
-                  KY ABC / Frankfort - 12345
-                </h2>
-                <h2
-                  class="slds-card__header-title card-sub-heading--modifier slds-m-top--x-small"
-                >
+                <h5 class="tertiary--color">KY ABC / Frankfort - 12345</h5>
+                <h5 class="primary--color slds-m-top--x-small">
                   1003 Twilight Trail, Frankfort, KY - 40601, Franklin County
-                </h2>
+                </h5>
               </div>
-              <div
-                class="slds-no-flex slds-m-around--small slds-text-align--right"
-              >
-                <h5 class="card-sub-warning">Temporary License Application</h5>
-                <h3 class="card-warning card-warning--yellow">
-                  Incomplete/Draft
-                </h3>
+              <div class="slds-no-flex slds-text-align--right">
+                <h6 class="secondary--color">Temporary License Application</h6>
+                <h5 class="yellow--color">Incomplete/Draft</h5>
               </div>
-              <div class="slds-no-flex slds-m-around--small">
+              <div class="slds-no-flex">
                 <button
-                  class="slds-button slds-button_outline-brand button-secondary--modifier"
+                  class="slds-button button-secondary--modifier slds-button_outline-brand button--outlined slds-m-horizontal--large slds-m-horizontal--small slds-p-horizontal--xx-large"
                 >
                   Continue
                 </button>
@@ -295,29 +275,27 @@
             </header>
           </article>
 
-          <article class="slds-card card--modifier slds-m-top--large">
+          <article
+            class="slds-card card--modifier border-left-larger--transparent slds-m-top--large"
+          >
             <header
               class="slds-media slds-media_center slds-has-flexi-truncate"
             >
               <div class="slds-media__body slds-m-around--small">
-                <h2 class="slds-card__header-title card-heading--modifier">
-                  KY ABC - Louisville - 54321
-                </h2>
-                <h2
-                  class="slds-card__header-title card-sub-heading--modifier slds-m-top--x-small"
-                >
+                <h5 class="tertiary--color">KY ABC - Louisville - 54321</h5>
+                <h5 class="primary--color slds-m-top--x-small">
                   12700 Townepark Way Ste 205, Louisville, KY - 40243, Jefferson
                   County
-                </h2>
+                </h5>
               </div>
               <div
                 class="slds-no-flex slds-m-around--small slds-text-align--right"
               >
-                <h3 class="card-warning-primary">Site Number : 123455432</h3>
+                <h4 class="primary--color">Site Number : 123455432</h4>
               </div>
-              <div class="slds-no-flex slds-m-around--small">
+              <div class="slds-no-flex">
                 <button
-                  class="slds-button slds-button_outline-brand button-secondary--modifier"
+                  class="slds-button button-secondary--modifier slds-button_outline-brand button--outlined slds-m-horizontal--large slds-m-horizontal--small slds-p-horizontal--xx-large"
                 >
                   Withdraw
                 </button>
@@ -337,49 +315,43 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr class="table-row">
+                  <tr class="primary--color">
                     <td data-label="Opportunity Name">
                       NQ1 Retail Drink License (KRS 243.082)
                     </td>
                     <td data-label="Account Name">01/22/2019</td>
-                    <td data-label="Close Date" class="table-data-progress">
+                    <th data-label="Close Date" class="secondary--color">
                       Administrative review
-                    </td>
+                    </th>
                   </tr>
                 </tbody>
               </table>
             </div>
           </article>
 
-          <h2
-            class="slds-text-heading_medium tab-content-heading--modifier slds-m-vertical--x-large"
-          >
-            MTX Group Inc.
-          </h2>
+          <h2 class="tertiary--color slds-m-vertical--large">MTX Group Inc.</h2>
 
-          <article class="slds-card card--modifier slds-m-top--large">
+          <article
+            class="slds-card card--modifier border-left-larger--transparent slds-m-top--large"
+          >
             <header
               class="slds-media slds-media_center slds-has-flexi-truncate"
             >
               <div class="slds-media__body slds-m-around--small">
-                <h2 class="slds-card__header-title card-heading--modifier">
-                  MTX Group Inc / Albany - 765432
-                </h2>
-                <h2
-                  class="slds-card__header-title card-sub-heading--modifier slds-m-top--x-small"
-                >
+                <h5 class="tertiary--color">MTX Group Inc / Albany - 765432</h5>
+                <h5 class="primary--color slds-m-top--x-small">
                   1450 Western Avenue - Suite 304, Albany, NY - 12203, Albany
                   County
-                </h2>
+                </h5>
               </div>
               <div
                 class="slds-no-flex slds-m-around--small slds-text-align--right"
               >
-                <h3 class="card-warning-primary">Site Number : 876543990</h3>
+                <h4 class="primary--color">Site Number : 876543990</h4>
               </div>
-              <div class="slds-no-flex slds-m-around--small">
+              <div class="slds-no-flex">
                 <button
-                  class="slds-button slds-button_outline-brand button-secondary--modifier"
+                  class="slds-button button-secondary--modifier slds-button_outline-brand button--outlined slds-m-horizontal--large slds-m-horizontal--small slds-p-horizontal--xx-large"
                 >
                   Withdraw
                 </button>
@@ -399,14 +371,14 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr class="table-row">
+                  <tr class="primary--color">
                     <td data-label="Opportunity Name">
                       NQ1 Retail Drink License (KRS 243.082)
                     </td>
                     <td data-label="Account Name">01/22/2019</td>
-                    <td data-label="Close Date" class="table-data-progress">
+                    <th data-label="Close Date" class="secondary--color">
                       Administrative review
-                    </td>
+                    </th>
                   </tr>
                 </tbody>
               </table>
@@ -426,27 +398,31 @@
     <!-- Section 1 Ends Here -->
     <!-- Footer Starts Here -->
     <footer
-      class="slds-grid slds-grid_align-spread slds-grid--vertical-align-center footer--modifier slds-p-vertical--small padding-left--100-px padding-right--100-px"
+      class="slds-grid slds-grid--align-center slds-p-vertical--small padding-left--100-px primary--bg-color padding-right--100-px"
     >
-      <div class="slds-col">
-        <h4>© 2019 Lorem Alcoholic Beverage Control</h4>
-      </div>
-      <div class="slds-col">
-        <a href="#" class="slds-button color--white slds-m-horizontal--large"
-          >Help</a
-        >
-        <a href="#" class="slds-button color--white slds-m-horizontal--large"
-          >FAQs</a
-        >
-        <a href="#" class="slds-button color--white slds-m-horizontal--large"
-          >Submit a case</a
-        >
-        <a href="#" class="slds-button color--white slds-m-horizontal--large"
-          >Terms of Use Agreement</a
-        >
-        <a href="#" class="slds-button color--white slds-m-horizontal--large"
-          >Privacy Policy</a
-        >
+      <div
+        class="slds-grid container--width slds-grid_align-spread slds-grid--vertical-align-center"
+      >
+        <div class="slds-col color--white">
+          <h6>© 2019 Lorem Alcoholic Beverage Control</h6>
+        </div>
+        <div class="slds-col">
+          <a href="#" class="slds-button color--white slds-m-horizontal--large"
+            >Help</a
+          >
+          <a href="#" class="slds-button color--white slds-m-horizontal--large"
+            >FAQs</a
+          >
+          <a href="#" class="slds-button color--white slds-m-horizontal--large"
+            >Submit a case</a
+          >
+          <a href="#" class="slds-button color--white slds-m-horizontal--large"
+            >Terms of Use Agreement</a
+          >
+          <a href="#" class="slds-button color--white slds-m-left_large"
+            >Privacy Policy</a
+          >
+        </div>
       </div>
     </footer>
     <!-- Footer Ends Here -->
